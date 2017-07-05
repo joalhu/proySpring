@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: #57597c;
+    padding-top: 2%;
+    min-height: 100vh;
+}
+#titleNotas{
+  width: 100%;
+  text-align: center;
+  background: #ED3362;
+  height: 40px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.content{
+    margin: auto;
+    width: 70%;
+    max-width: 600px;
+    padding: 30px;
+    background: #9cfbc3;
+    border: 1px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+.content li{
+  display: inline-block;
+  width: 200px;
+  padding: 10px;
+
+}
+
+.tituloCaja{
+  text-align: center;
+  color: #ffb202;
+}
+.tTabla{
+  background: #ed3362;
+}
+.titleTabla{
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+input{
+  width: 96%;
+  height: 30px;
+}
+input[type="submit"]{
+  background: #ed3362;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+  opacity: 0.8;
+}
+input[type="submit"]:hover{
+  opacity: 1;
+}
+#resul{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: left;
+  border-radius: 5px;
+  background: #0095dd;
+}
+.resul{
+  float: left;
+  display: inline-block;
+}
+.resul li{
+  float: left;
+  list-style: none;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  color: #fff;
+  border: 1px solid #000;
+}
+.titResul{
+  background: #FF7461;
+  font-weight: bold;
+  font-size: 18px;
+}
+.cuerpoResul{
+  background: #1099A3;
+}
+
+
+.button{
+  clear: both;
+  width: 130px;
+  height: 50px;
+  background: linear-gradient(#d25400, #e67f22);
+  border: 0;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 10px;
+  float: left;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.button:hover{
+  background: #FF7461;
+  box-shadow: 10px 10px 5px #888888;
+}
